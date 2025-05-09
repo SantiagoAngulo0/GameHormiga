@@ -1,0 +1,5 @@
+"C:\Users\santi\AppData\Local\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Users/santi/AppData/Local/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\santi\GameHormiga -B C:\Users\santi\GameHormiga\cmake-build-debug
+-- Found SFML 2.5.1 in C:/Users/santi/Downloads/librariesSFML/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/lib/cmake/SFML
+-- Configuring done (0.7s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/santi/GameHormiga/cmake-build-debug

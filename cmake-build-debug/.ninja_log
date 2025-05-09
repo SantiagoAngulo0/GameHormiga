@@ -1,0 +1,8 @@
+# ninja log v6
+28	1785	7684445770865735	CMakeFiles/GameHormiga.dir/main.cpp.obj	f7fd85425bc86f27
+3	22	7684306553116121	clean	654e369c663dd51e
+1437	1840	7684452029081577	GameHormiga.exe	5a9c3e2c01988d17
+11	1984	7684585840610497	build.ninja	780f355cdac2fae3
+45	1792	7684445771053565	CMakeFiles/GameHormiga.dir/Juego.cpp.obj	cb75cc678dcf3b40
+22	1465	7684322284792651	CMakeFiles/GameHormiga.dir/ReyHongo.cpp.obj	6951f0e9a064a133
+8	1436	7684452014800600	CMakeFiles/GameHormiga.dir/Ray.cpp.obj	23461efbee9465ea
