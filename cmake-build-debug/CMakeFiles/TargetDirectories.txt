@@ -1,3 +1,3 @@
-C:/Users/ASUS ROG/Documents/tareas Universidad/POO/GameHormiga-main/cmake-build-debug/CMakeFiles/GameHormiga.dir
-C:/Users/ASUS ROG/Documents/tareas Universidad/POO/GameHormiga-main/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/ASUS ROG/Documents/tareas Universidad/POO/GameHormiga-main/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/s4m976/Downloads/GameHormiga/cmake-build-debug/CMakeFiles/GameHormiga.dir
+C:/Users/s4m976/Downloads/GameHormiga/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/s4m976/Downloads/GameHormiga/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,5 +1,5 @@
-"C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S "C:\Users\ASUS ROG\Documents\tareas Universidad\POO\GameHormiga-main" -B "C:\Users\ASUS ROG\Documents\tareas Universidad\POO\GameHormiga-main\cmake-build-debug"
--- Found SFML 2.5.1 in C:/SFML/lib/cmake/SFML
--- Configuring done (0.6s)
--- Generating done (0.1s)
--- Build files have been written to: C:/Users/ASUS ROG/Documents/tareas Universidad/POO/GameHormiga-main/cmake-build-debug
+"C:\Users\s4m976\AppData\Local\JetBrains\CLion 2024.3.5\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S C:\Users\s4m976\Downloads\GameHormiga -B C:\Users\s4m976\Downloads\GameHormiga\cmake-build-debug
+-- Found SFML 2.5.1 in C:/Users/s4m976/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/lib/cmake/SFML
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/s4m976/Downloads/GameHormiga/cmake-build-debug

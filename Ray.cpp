@@ -22,7 +22,7 @@ Ray::Ray(const std::string& nombre, int vitalidad, int vidas, const std::string&
 
     // Obtener altura del sprite y altura del suelo
     alturaSprite = sprite.getGlobalBounds().height;
-    sueloY = 300.0f; // Ajusta este valor si el personaje flota o se entierra
+    sueloY = 350.0f; // Ajusta este valor si el personaje flota o se entierra
 
     // Posición inicial
     posicion = sf::Vector2f(100, sueloY - alturaSprite);
@@ -87,6 +87,11 @@ void Ray::dibujar(sf::RenderWindow& ventana) const {
 sf::FloatRect Ray::obtenerLimites() const {
     return sprite.getGlobalBounds();
 }
+
+void Ray::setSueloY(float sueloY) {
+    this->sueloY = sueloY;
+}
+
 
 void Ray::setPosicion(const sf::Vector2f& posicion) {
     this -> posicion = posicion;

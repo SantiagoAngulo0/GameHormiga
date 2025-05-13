@@ -50,6 +50,7 @@ public:
     void recibirDano(int dano);
     void usarPoderEspecial(const std::string& nombrePoder);
     void setPosicion(const sf::Vector2f& posicion);
+    void setSueloY(float sueloY);
 
     void actualizar(float deltaTime);
     void dibujar(sf::RenderWindow& ventana) const;
