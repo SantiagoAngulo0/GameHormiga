@@ -6,6 +6,7 @@
 int main() {
 Juego juego;
         juego.iniciar();
+        //hola el pepe ete sech
         return 0;
     }
 

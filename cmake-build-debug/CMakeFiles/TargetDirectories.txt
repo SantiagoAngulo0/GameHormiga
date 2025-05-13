@@ -1,3 +1,0 @@
-C:/Users/santi/GameHormiga/cmake-build-debug/CMakeFiles/GameHormiga.dir
-C:/Users/santi/GameHormiga/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/santi/GameHormiga/cmake-build-debug/CMakeFiles/rebuild_cache.dir
