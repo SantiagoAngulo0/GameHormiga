@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Users\s4m976\AppData\Local\JetBrains\CLion 2024.3.5\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Users\s4m976\AppData\Local\JetBrains\CLion 2024.3.5\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\s4m976\Downloads\GameHormiga
+CMAKE_SOURCE_DIR = "C:\Users\ASUS ROG\Documents\tareas Universidad\POO\GameHormiga"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\s4m976\Downloads\GameHormiga\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\ASUS ROG\Documents\tareas Universidad\POO\GameHormiga\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/GameHormiga.dir/depend.make
@@ -70,63 +70,63 @@ include CMakeFiles/GameHormiga.dir/flags.make
 
 CMakeFiles/GameHormiga.dir/main.cpp.obj: CMakeFiles/GameHormiga.dir/flags.make
 CMakeFiles/GameHormiga.dir/main.cpp.obj: CMakeFiles/GameHormiga.dir/includes_CXX.rsp
-CMakeFiles/GameHormiga.dir/main.cpp.obj: C:/Users/s4m976/Downloads/GameHormiga/main.cpp
+CMakeFiles/GameHormiga.dir/main.cpp.obj: C:/Users/ASUS\ ROG/Documents/tareas\ Universidad/POO/GameHormiga/main.cpp
 CMakeFiles/GameHormiga.dir/main.cpp.obj: CMakeFiles/GameHormiga.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\s4m976\Downloads\GameHormiga\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GameHormiga.dir/main.cpp.obj"
-	C:\Users\s4m976\AppData\Local\JETBRA~1\CLION2~1.5\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameHormiga.dir/main.cpp.obj -MF CMakeFiles\GameHormiga.dir\main.cpp.obj.d -o CMakeFiles\GameHormiga.dir\main.cpp.obj -c C:\Users\s4m976\Downloads\GameHormiga\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\ASUS ROG\Documents\tareas Universidad\POO\GameHormiga\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GameHormiga.dir/main.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameHormiga.dir/main.cpp.obj -MF CMakeFiles\GameHormiga.dir\main.cpp.obj.d -o CMakeFiles\GameHormiga.dir\main.cpp.obj -c "C:\Users\ASUS ROG\Documents\tareas Universidad\POO\GameHormiga\main.cpp"
 
 CMakeFiles/GameHormiga.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameHormiga.dir/main.cpp.i"
-	C:\Users\s4m976\AppData\Local\JETBRA~1\CLION2~1.5\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\s4m976\Downloads\GameHormiga\main.cpp > CMakeFiles\GameHormiga.dir\main.cpp.i
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ASUS ROG\Documents\tareas Universidad\POO\GameHormiga\main.cpp" > CMakeFiles\GameHormiga.dir\main.cpp.i
 
 CMakeFiles/GameHormiga.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameHormiga.dir/main.cpp.s"
-	C:\Users\s4m976\AppData\Local\JETBRA~1\CLION2~1.5\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\s4m976\Downloads\GameHormiga\main.cpp -o CMakeFiles\GameHormiga.dir\main.cpp.s
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\ASUS ROG\Documents\tareas Universidad\POO\GameHormiga\main.cpp" -o CMakeFiles\GameHormiga.dir\main.cpp.s
 
 CMakeFiles/GameHormiga.dir/Juego.cpp.obj: CMakeFiles/GameHormiga.dir/flags.make
 CMakeFiles/GameHormiga.dir/Juego.cpp.obj: CMakeFiles/GameHormiga.dir/includes_CXX.rsp
-CMakeFiles/GameHormiga.dir/Juego.cpp.obj: C:/Users/s4m976/Downloads/GameHormiga/Juego.cpp
+CMakeFiles/GameHormiga.dir/Juego.cpp.obj: C:/Users/ASUS\ ROG/Documents/tareas\ Universidad/POO/GameHormiga/Juego.cpp
 CMakeFiles/GameHormiga.dir/Juego.cpp.obj: CMakeFiles/GameHormiga.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\s4m976\Downloads\GameHormiga\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GameHormiga.dir/Juego.cpp.obj"
-	C:\Users\s4m976\AppData\Local\JETBRA~1\CLION2~1.5\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameHormiga.dir/Juego.cpp.obj -MF CMakeFiles\GameHormiga.dir\Juego.cpp.obj.d -o CMakeFiles\GameHormiga.dir\Juego.cpp.obj -c C:\Users\s4m976\Downloads\GameHormiga\Juego.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\ASUS ROG\Documents\tareas Universidad\POO\GameHormiga\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GameHormiga.dir/Juego.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameHormiga.dir/Juego.cpp.obj -MF CMakeFiles\GameHormiga.dir\Juego.cpp.obj.d -o CMakeFiles\GameHormiga.dir\Juego.cpp.obj -c "C:\Users\ASUS ROG\Documents\tareas Universidad\POO\GameHormiga\Juego.cpp"
 
 CMakeFiles/GameHormiga.dir/Juego.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameHormiga.dir/Juego.cpp.i"
-	C:\Users\s4m976\AppData\Local\JETBRA~1\CLION2~1.5\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\s4m976\Downloads\GameHormiga\Juego.cpp > CMakeFiles\GameHormiga.dir\Juego.cpp.i
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ASUS ROG\Documents\tareas Universidad\POO\GameHormiga\Juego.cpp" > CMakeFiles\GameHormiga.dir\Juego.cpp.i
 
 CMakeFiles/GameHormiga.dir/Juego.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameHormiga.dir/Juego.cpp.s"
-	C:\Users\s4m976\AppData\Local\JETBRA~1\CLION2~1.5\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\s4m976\Downloads\GameHormiga\Juego.cpp -o CMakeFiles\GameHormiga.dir\Juego.cpp.s
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\ASUS ROG\Documents\tareas Universidad\POO\GameHormiga\Juego.cpp" -o CMakeFiles\GameHormiga.dir\Juego.cpp.s
 
 CMakeFiles/GameHormiga.dir/Ray.cpp.obj: CMakeFiles/GameHormiga.dir/flags.make
 CMakeFiles/GameHormiga.dir/Ray.cpp.obj: CMakeFiles/GameHormiga.dir/includes_CXX.rsp
-CMakeFiles/GameHormiga.dir/Ray.cpp.obj: C:/Users/s4m976/Downloads/GameHormiga/Ray.cpp
+CMakeFiles/GameHormiga.dir/Ray.cpp.obj: C:/Users/ASUS\ ROG/Documents/tareas\ Universidad/POO/GameHormiga/Ray.cpp
 CMakeFiles/GameHormiga.dir/Ray.cpp.obj: CMakeFiles/GameHormiga.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\s4m976\Downloads\GameHormiga\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GameHormiga.dir/Ray.cpp.obj"
-	C:\Users\s4m976\AppData\Local\JETBRA~1\CLION2~1.5\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameHormiga.dir/Ray.cpp.obj -MF CMakeFiles\GameHormiga.dir\Ray.cpp.obj.d -o CMakeFiles\GameHormiga.dir\Ray.cpp.obj -c C:\Users\s4m976\Downloads\GameHormiga\Ray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\ASUS ROG\Documents\tareas Universidad\POO\GameHormiga\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GameHormiga.dir/Ray.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameHormiga.dir/Ray.cpp.obj -MF CMakeFiles\GameHormiga.dir\Ray.cpp.obj.d -o CMakeFiles\GameHormiga.dir\Ray.cpp.obj -c "C:\Users\ASUS ROG\Documents\tareas Universidad\POO\GameHormiga\Ray.cpp"
 
 CMakeFiles/GameHormiga.dir/Ray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameHormiga.dir/Ray.cpp.i"
-	C:\Users\s4m976\AppData\Local\JETBRA~1\CLION2~1.5\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\s4m976\Downloads\GameHormiga\Ray.cpp > CMakeFiles\GameHormiga.dir\Ray.cpp.i
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ASUS ROG\Documents\tareas Universidad\POO\GameHormiga\Ray.cpp" > CMakeFiles\GameHormiga.dir\Ray.cpp.i
 
 CMakeFiles/GameHormiga.dir/Ray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameHormiga.dir/Ray.cpp.s"
-	C:\Users\s4m976\AppData\Local\JETBRA~1\CLION2~1.5\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\s4m976\Downloads\GameHormiga\Ray.cpp -o CMakeFiles\GameHormiga.dir\Ray.cpp.s
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\ASUS ROG\Documents\tareas Universidad\POO\GameHormiga\Ray.cpp" -o CMakeFiles\GameHormiga.dir\Ray.cpp.s
 
 CMakeFiles/GameHormiga.dir/PuertaEscenario.cpp.obj: CMakeFiles/GameHormiga.dir/flags.make
 CMakeFiles/GameHormiga.dir/PuertaEscenario.cpp.obj: CMakeFiles/GameHormiga.dir/includes_CXX.rsp
-CMakeFiles/GameHormiga.dir/PuertaEscenario.cpp.obj: C:/Users/s4m976/Downloads/GameHormiga/PuertaEscenario.cpp
+CMakeFiles/GameHormiga.dir/PuertaEscenario.cpp.obj: C:/Users/ASUS\ ROG/Documents/tareas\ Universidad/POO/GameHormiga/PuertaEscenario.cpp
 CMakeFiles/GameHormiga.dir/PuertaEscenario.cpp.obj: CMakeFiles/GameHormiga.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\s4m976\Downloads\GameHormiga\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GameHormiga.dir/PuertaEscenario.cpp.obj"
-	C:\Users\s4m976\AppData\Local\JETBRA~1\CLION2~1.5\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameHormiga.dir/PuertaEscenario.cpp.obj -MF CMakeFiles\GameHormiga.dir\PuertaEscenario.cpp.obj.d -o CMakeFiles\GameHormiga.dir\PuertaEscenario.cpp.obj -c C:\Users\s4m976\Downloads\GameHormiga\PuertaEscenario.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\ASUS ROG\Documents\tareas Universidad\POO\GameHormiga\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GameHormiga.dir/PuertaEscenario.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameHormiga.dir/PuertaEscenario.cpp.obj -MF CMakeFiles\GameHormiga.dir\PuertaEscenario.cpp.obj.d -o CMakeFiles\GameHormiga.dir\PuertaEscenario.cpp.obj -c "C:\Users\ASUS ROG\Documents\tareas Universidad\POO\GameHormiga\PuertaEscenario.cpp"
 
 CMakeFiles/GameHormiga.dir/PuertaEscenario.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameHormiga.dir/PuertaEscenario.cpp.i"
-	C:\Users\s4m976\AppData\Local\JETBRA~1\CLION2~1.5\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\s4m976\Downloads\GameHormiga\PuertaEscenario.cpp > CMakeFiles\GameHormiga.dir\PuertaEscenario.cpp.i
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ASUS ROG\Documents\tareas Universidad\POO\GameHormiga\PuertaEscenario.cpp" > CMakeFiles\GameHormiga.dir\PuertaEscenario.cpp.i
 
 CMakeFiles/GameHormiga.dir/PuertaEscenario.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameHormiga.dir/PuertaEscenario.cpp.s"
-	C:\Users\s4m976\AppData\Local\JETBRA~1\CLION2~1.5\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\s4m976\Downloads\GameHormiga\PuertaEscenario.cpp -o CMakeFiles\GameHormiga.dir\PuertaEscenario.cpp.s
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\ASUS ROG\Documents\tareas Universidad\POO\GameHormiga\PuertaEscenario.cpp" -o CMakeFiles\GameHormiga.dir\PuertaEscenario.cpp.s
 
 # Object files for target GameHormiga
 GameHormiga_OBJECTS = \
@@ -143,21 +143,21 @@ GameHormiga.exe: CMakeFiles/GameHormiga.dir/Juego.cpp.obj
 GameHormiga.exe: CMakeFiles/GameHormiga.dir/Ray.cpp.obj
 GameHormiga.exe: CMakeFiles/GameHormiga.dir/PuertaEscenario.cpp.obj
 GameHormiga.exe: CMakeFiles/GameHormiga.dir/build.make
-GameHormiga.exe: C:/Users/s4m976/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/lib/libsfml-graphics-s-d.a
-GameHormiga.exe: C:/Users/s4m976/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/lib/libsfml-audio-s-d.a
-GameHormiga.exe: C:/Users/s4m976/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/lib/libsfml-window-s-d.a
-GameHormiga.exe: C:/Users/s4m976/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/lib/libfreetype.a
-GameHormiga.exe: C:/Users/s4m976/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/lib/libopenal32.a
-GameHormiga.exe: C:/Users/s4m976/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/lib/libsfml-system-s-d.a
-GameHormiga.exe: C:/Users/s4m976/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/lib/libvorbisfile.a
-GameHormiga.exe: C:/Users/s4m976/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/lib/libvorbisenc.a
-GameHormiga.exe: C:/Users/s4m976/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/lib/libvorbis.a
-GameHormiga.exe: C:/Users/s4m976/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/lib/libogg.a
-GameHormiga.exe: C:/Users/s4m976/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/lib/libFLAC.a
+GameHormiga.exe: C:/SFML/lib/libsfml-graphics-s-d.a
+GameHormiga.exe: C:/SFML/lib/libsfml-audio-s-d.a
+GameHormiga.exe: C:/SFML/lib/libsfml-window-s-d.a
+GameHormiga.exe: C:/SFML/lib/libfreetype.a
+GameHormiga.exe: C:/SFML/lib/libopenal32.a
+GameHormiga.exe: C:/SFML/lib/libsfml-system-s-d.a
+GameHormiga.exe: C:/SFML/lib/libvorbisfile.a
+GameHormiga.exe: C:/SFML/lib/libvorbisenc.a
+GameHormiga.exe: C:/SFML/lib/libvorbis.a
+GameHormiga.exe: C:/SFML/lib/libogg.a
+GameHormiga.exe: C:/SFML/lib/libFLAC.a
 GameHormiga.exe: CMakeFiles/GameHormiga.dir/linkLibs.rsp
 GameHormiga.exe: CMakeFiles/GameHormiga.dir/objects1.rsp
 GameHormiga.exe: CMakeFiles/GameHormiga.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\s4m976\Downloads\GameHormiga\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable GameHormiga.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\ASUS ROG\Documents\tareas Universidad\POO\GameHormiga\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable GameHormiga.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\GameHormiga.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -169,6 +169,6 @@ CMakeFiles/GameHormiga.dir/clean:
 .PHONY : CMakeFiles/GameHormiga.dir/clean
 
 CMakeFiles/GameHormiga.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\s4m976\Downloads\GameHormiga C:\Users\s4m976\Downloads\GameHormiga C:\Users\s4m976\Downloads\GameHormiga\cmake-build-debug C:\Users\s4m976\Downloads\GameHormiga\cmake-build-debug C:\Users\s4m976\Downloads\GameHormiga\cmake-build-debug\CMakeFiles\GameHormiga.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\ASUS ROG\Documents\tareas Universidad\POO\GameHormiga" "C:\Users\ASUS ROG\Documents\tareas Universidad\POO\GameHormiga" "C:\Users\ASUS ROG\Documents\tareas Universidad\POO\GameHormiga\cmake-build-debug" "C:\Users\ASUS ROG\Documents\tareas Universidad\POO\GameHormiga\cmake-build-debug" "C:\Users\ASUS ROG\Documents\tareas Universidad\POO\GameHormiga\cmake-build-debug\CMakeFiles\GameHormiga.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/GameHormiga.dir/depend
 

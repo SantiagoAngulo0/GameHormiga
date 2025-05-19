@@ -8,7 +8,7 @@ Juego::Juego() :
     ventana(sf::VideoMode(1800, 900), "Mi Juego"),
     jugador("Protagonista", 100, 3, "assets"),
 //cambiar la ruta de abajo por donde tenga el archivo
-    puertaEscenario("C:/Users/s4m976/Downloads/GameHormiga/puerta_sprite.png", sf::Vector2f(1396, 285)),
+    puertaEscenario("C:/Users/ASUS ROG/Documents/tareas Universidad/POO/GameHormiga/puerta_sprite.png", sf::Vector2f(1396, 285)),
     currentEscenario("escenario1"){
 
     cambiarEscenario("escenario1");
@@ -68,7 +68,7 @@ void Juego::dibujar() {
 
 void Juego::cambiarEscenario(const string& nombreEscenario) {
     if (nombreEscenario == "escenario1") {
-        if (!texFondo.loadFromFile("C:/Users/s4m976/Downloads/GameHormiga/cmake-build-debug/Tilest 1.PNG")) {
+        if (!texFondo.loadFromFile("C:/Users/ASUS ROG/Documents/tareas Universidad/POO/GameHormiga/cmake-build-debug/Tilest 1.PNG")) {
             cout << "Erro ao abrir texture fondo" << endl;
         }
         jugador.setSueloY(500);
@@ -79,7 +79,7 @@ void Juego::cambiarEscenario(const string& nombreEscenario) {
 
     }
     else if (nombreEscenario == "escenario2") {
-        if (!texFondo.loadFromFile("C:/Users/s4m976/Downloads/GameHormiga/escenario2.png")) {
+        if (!texFondo.loadFromFile("C:/Users/ASUS ROG/Documents/tareas Universidad/POO/GameHormiga/escenario2.PNG")) {
             cout << "Erro ao abrir texture fondo" << endl;
         }
         fondo.setTexture(texFondo);
@@ -90,7 +90,7 @@ void Juego::cambiarEscenario(const string& nombreEscenario) {
 
     }
     else if (nombreEscenario == "escenario3") {
-        if (!texFondo.loadFromFile("C:/Users/s4m976/Downloads/GameHormiga/escenario3.png")) {
+        if (!texFondo.loadFromFile("C:/Users/ASUS ROG/Documents/tareas Universidad/POO/GameHormiga/escenario3.PNG")) {
             cout << "Erro ao abrir texture fondo" << endl;
         }
         fondo.setTexture(texFondo);
@@ -100,7 +100,7 @@ void Juego::cambiarEscenario(const string& nombreEscenario) {
         jugador.setPosicion(Vector2f(100, 860));
     }
     else if (nombreEscenario == "escenario4") {
-        if (!texFondo.loadFromFile("C:/Users/s4m976/Downloads/GameHormiga/escenario4.png")) {
+        if (!texFondo.loadFromFile("C:/Users/ASUS ROG/Documents/tareas Universidad/POO/GameHormiga/escenario4.PNG")) {
             cout << "Erro ao abrir texture fondo" << endl;
         }
         fondo.setTexture(texFondo);

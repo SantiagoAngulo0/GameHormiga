@@ -30,10 +30,18 @@ private:
     float gravedad = 0.8f;
     float velocidadY = 0;
     bool enSuelo = false;
+    bool isMooving = false;
     float alturaSprite;
     float sueloY;
 
     sf::Vector2f posicion;
+    sf::Texture textureCaminata;
+    int currentFrame = 0;
+    float frameDuration = 0.1f;
+    float animationTimer = 0.0f;
+    int totalFrames = 4;
+    sf::Vector2i frameSize = { 225, 320 };
+
 
 public:
     Ray(const std::string& nombre, int vitalidad, int vidas, const std::string& texturePath);
@@ -52,9 +60,12 @@ public:
     void setPosicion(const sf::Vector2f& posicion);
     void setSueloY(float sueloY);
 
+
     void actualizar(float deltaTime);
+    void Updateanimacion(float deltaTime);
     void dibujar(sf::RenderWindow& ventana) const;
     sf::FloatRect obtenerLimites() const;
+
 };
 
 #endif // RAY_H

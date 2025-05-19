@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/s4m976/Downloads/GameHormiga/Juego.cpp" "CMakeFiles/GameHormiga.dir/Juego.cpp.obj" "gcc" "CMakeFiles/GameHormiga.dir/Juego.cpp.obj.d"
-  "C:/Users/s4m976/Downloads/GameHormiga/PuertaEscenario.cpp" "CMakeFiles/GameHormiga.dir/PuertaEscenario.cpp.obj" "gcc" "CMakeFiles/GameHormiga.dir/PuertaEscenario.cpp.obj.d"
-  "C:/Users/s4m976/Downloads/GameHormiga/Ray.cpp" "CMakeFiles/GameHormiga.dir/Ray.cpp.obj" "gcc" "CMakeFiles/GameHormiga.dir/Ray.cpp.obj.d"
-  "C:/Users/s4m976/Downloads/GameHormiga/main.cpp" "CMakeFiles/GameHormiga.dir/main.cpp.obj" "gcc" "CMakeFiles/GameHormiga.dir/main.cpp.obj.d"
+  "C:/Users/ASUS ROG/Documents/tareas Universidad/POO/GameHormiga/Juego.cpp" "CMakeFiles/GameHormiga.dir/Juego.cpp.obj" "gcc" "CMakeFiles/GameHormiga.dir/Juego.cpp.obj.d"
+  "C:/Users/ASUS ROG/Documents/tareas Universidad/POO/GameHormiga/PuertaEscenario.cpp" "CMakeFiles/GameHormiga.dir/PuertaEscenario.cpp.obj" "gcc" "CMakeFiles/GameHormiga.dir/PuertaEscenario.cpp.obj.d"
+  "C:/Users/ASUS ROG/Documents/tareas Universidad/POO/GameHormiga/Ray.cpp" "CMakeFiles/GameHormiga.dir/Ray.cpp.obj" "gcc" "CMakeFiles/GameHormiga.dir/Ray.cpp.obj.d"
+  "C:/Users/ASUS ROG/Documents/tareas Universidad/POO/GameHormiga/main.cpp" "CMakeFiles/GameHormiga.dir/main.cpp.obj" "gcc" "CMakeFiles/GameHormiga.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -9,13 +9,14 @@ Ray::Ray(const std::string& nombre, int vitalidad, int vidas, const std::string&
     : nombre(nombre), vitalidad(vitalidad), vidas(vidas) {
 
     // Cargar texturas
-    if (!textureDerecha.loadFromFile("Hormida derecha.PNG") ||
+    if (!textureDerecha.loadFromFile("C:/Users/ASUS ROG/Documents/tareas Universidad/POO/GameHormiga/Sprite_caminata_ray.png") ||
         !textureIzquierda.loadFromFile("hormiga izquierda.png")) {
         std::cerr << "Error cargando texturas de Ray\n";
         }
 
     // Usar textura por defecto
     sprite.setTexture(textureDerecha);
+    sprite.setTextureRect(sf::IntRect(0, 0, frameSize.x, frameSize.y));
 
     // Escalar el sprite
     sprite.setScale(0.3f, 0.3f);
@@ -47,6 +48,7 @@ void Ray::actualizar(float deltaTime) {
     }
 
     sprite.setPosition(posicion);
+    Updateanimacion(deltaTime);
 }
 
 void Ray::moverDerecha() {
@@ -95,4 +97,13 @@ void Ray::setSueloY(float sueloY) {
 
 void Ray::setPosicion(const sf::Vector2f& posicion) {
     this -> posicion = posicion;
+}
+
+void Ray::Updateanimacion(float deltaTime) {
+    animationTimer += deltaTime;
+    if (animationTimer >= frameDuration) {
+        currentFrame = (currentFrame + 1) %totalFrames;
+        animationTimer = 0.0f;
+        sprite.setTextureRect(sf::IntRect(currentFrame * frameSize.x, 0, frameSize.x, frameSize.y));
+    }
 }
